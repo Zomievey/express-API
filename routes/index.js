@@ -1,5 +1,5 @@
-const express = require('express');
-const chirpsRouter = require('../chirps');
+const express = require('express').Router();
+const chirpsRouter = require('./chirps');
 
 let router = express.Router();
 
